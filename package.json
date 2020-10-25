@@ -1,0 +1,29 @@
+{
+  "name": "portfolio4.0",
+  "version": "1.0.0",
+  "description": "A basic web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss public/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klavenjones/Portfolio4.0.git"
+  },
+  "keywords": [
+    "portfolio",
+    "personal"
+  ],
+  "author": "Klaven Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klavenjones/Portfolio4.0/issues"
+  },
+  "homepage": "https://github.com/klavenjones/Portfolio4.0#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
