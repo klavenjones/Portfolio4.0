@@ -4,7 +4,8 @@
   "description": "A basic web portfolio",
   "main": "index.js",
   "scripts": {
-    "build": "postcss public/tailwind.css -o public/build/tailwind.css"
+    "build": "postcss public/tailwind.css -o public/build/tailwind.css",
+    "serve": "live-server public"
   },
   "repository": {
     "type": "git",
