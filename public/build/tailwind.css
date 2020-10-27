@@ -10557,8 +10557,20 @@ video {
   font-size: clamp(1rem, 5vw, 3.75rem);
 }
 
-.text-section-title {
-  font-size: clamp(10rem, 5vw, 15rem);
+.text-section-title-xl {
+  font-size: 10rem;
+}
+
+.text-section-title-lg {
+  font-size: 8rem;
+}
+
+.text-section-title-md {
+  font-size: 5.8rem;
+}
+
+.text-section-title-sm {
+  font-size: 2.25rem;
 }
 
 .leading-3 {
@@ -31622,8 +31634,20 @@ video {
     font-size: clamp(1rem, 5vw, 3.75rem);
   }
 
-  .sm\:text-section-title {
-    font-size: clamp(10rem, 5vw, 15rem);
+  .sm\:text-section-title-xl {
+    font-size: 10rem;
+  }
+
+  .sm\:text-section-title-lg {
+    font-size: 8rem;
+  }
+
+  .sm\:text-section-title-md {
+    font-size: 5.8rem;
+  }
+
+  .sm\:text-section-title-sm {
+    font-size: 2.25rem;
   }
 
   .sm\:leading-3 {
@@ -52622,8 +52646,20 @@ video {
     font-size: clamp(1rem, 5vw, 3.75rem);
   }
 
-  .md\:text-section-title {
-    font-size: clamp(10rem, 5vw, 15rem);
+  .md\:text-section-title-xl {
+    font-size: 10rem;
+  }
+
+  .md\:text-section-title-lg {
+    font-size: 8rem;
+  }
+
+  .md\:text-section-title-md {
+    font-size: 5.8rem;
+  }
+
+  .md\:text-section-title-sm {
+    font-size: 2.25rem;
   }
 
   .md\:leading-3 {
@@ -73622,8 +73658,20 @@ video {
     font-size: clamp(1rem, 5vw, 3.75rem);
   }
 
-  .lg\:text-section-title {
-    font-size: clamp(10rem, 5vw, 15rem);
+  .lg\:text-section-title-xl {
+    font-size: 10rem;
+  }
+
+  .lg\:text-section-title-lg {
+    font-size: 8rem;
+  }
+
+  .lg\:text-section-title-md {
+    font-size: 5.8rem;
+  }
+
+  .lg\:text-section-title-sm {
+    font-size: 2.25rem;
   }
 
   .lg\:leading-3 {
@@ -94622,8 +94670,20 @@ video {
     font-size: clamp(1rem, 5vw, 3.75rem);
   }
 
-  .xl\:text-section-title {
-    font-size: clamp(10rem, 5vw, 15rem);
+  .xl\:text-section-title-xl {
+    font-size: 10rem;
+  }
+
+  .xl\:text-section-title-lg {
+    font-size: 8rem;
+  }
+
+  .xl\:text-section-title-md {
+    font-size: 5.8rem;
+  }
+
+  .xl\:text-section-title-sm {
+    font-size: 2.25rem;
   }
 
   .xl\:leading-3 {

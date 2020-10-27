@@ -15,7 +15,10 @@ module.exports = {
         fontSize: {
           'display': 'clamp(1.25rem, 5vw, 5rem)',
           'display-footer': 'clamp(1rem, 5vw, 3.75rem)',
-          'section-title': 'clamp(10rem, 5vw, 15rem)',
+          'section-title-xl': '10rem',
+          'section-title-lg': '8rem',
+          'section-title-md': '5.8rem',
+          'section-title-sm': '2.25rem',
         },
         height: {
             '560': "35rem",
