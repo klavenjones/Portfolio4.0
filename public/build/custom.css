@@ -1,0 +1,13 @@
+
+
+/* 
+    Animation CSS
+*/
+
+#overlay {
+  clip-path: circle(0);
+}
+
+#menu li {
+  opacity: 0;
+}

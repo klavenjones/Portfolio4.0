@@ -9,28 +9,31 @@
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="/build/tailwind.css">
+        <link rel="stylesheet" href="/build/custom.css">
     </head>
 
-    <body class="h-screen ">
+    <body class="h-screen">
         <nav>
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between h-20">
+            <div class="max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
+                <div class="flex justify-between h-24">
                     <div class="flex-shrink-0 flex items-center">
-                        <img class="block w-32 h-8" src="./img/logo.svg" alt="Workflow logo">
+                        <img class="block w-32 md:w-40 lg:w-48" src="./img/logo.svg" alt="Workflow logo">
 
                     </div>
                     <div class="flex">
                         <div class="-ml-2 mr-2 flex items-center">
                             <!-- Mobile menu button -->
-                            <button
-                                class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                            <button id="open"
+                                class="inline-flex items-center justify-center rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                                 aria-label="Main menu" aria-expanded="false">
 
-                                <svg class="block h-6 w-6 stroke-current text-black " xmlns="http://www.w3.org/2000/svg"
+                                <svg class="block h-8 w-8 stroke-current text-black " xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M4 6h16M4 12h16M4 18h16" />
                                 </svg>
+
+
                                 <!-- Icon when menu is open. -->
                                 <!--
                                         Heroicon name: x
@@ -49,12 +52,13 @@
 
             </div>
         </nav>
-        <aside id="overlay" class="fixed w-full h-full bg-gray-900 top-0 overflow-y-auto">
+
+        <aside id="overlay" class="fixed w-full h-full bg-gray-900 top-0 overflow-y-auto z-20">
             <header class="p-8 sm:px-6">
                 <div class="flex space-x-3">
                     <div class="h-7 flex items-center ml-auto">
-                        <button aria-label="Close panel"
-                            class="text-gray-400 hover:text-gray-500 transition ease-in-out duration-150">
+                        <button id="exit" aria-label="Close panel"
+                            class="text-gray-400 hover:text-gray-500 transition ease-in-out duration-150 p-5">
                             <!-- Heroicon name: x -->
                             <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -69,7 +73,7 @@
             <nav class="shadow rounded-lg">
                 <div class="p-8 sm:px-6">
                     <!-- Content goes here -->
-                    <ul class="space-y-4 text-left pl-6">
+                    <ul id="menu" class="space-y-4 text-left pl-6">
                         <li class="text-white text-5xl md:text-6xl">
                             <a href="" class="hover:text-gray-800 btransition duration-300 ease-in-out ">
                                 Home
@@ -91,26 +95,26 @@
                             </a>
                         </li>
                         <li class="text-white text-3xl md:text-4xl pt-6 md:mt-20">
-                            <h2 class="font-bold">
+                            <h2 class="font-semibold mb-10">
                                 Lets Connect:
                             </h2>
                         </li>
-                        <li class="space-x-0 md:flex md:space-x-24 w-full pl-1 ">
-                            <div class="space-y-2 flex flex-col">
+                        <li class="space-x-0 md:flex md:space-x-32 w-full pl-1 ">
+                            <div class="space-y-4 flex flex-col">
                                 <h3 class="text-white font-semibold text-2xl">
                                     Email:
                                 </h3>
-                                <p class="text-white font-medium text-2xl">
+                                <a href="#" class="text-white font-medium text-2xl hover:text-gray-800 pt-1">
                                     hey@klavenjones.com
-                                </p>
+                                </a>
                             </div>
-                            <div class="space-y-2 flex flex-col w-full pt-4 md:pt-0">
+                            <div class="space-y-4 flex flex-col w-full pt-8  md:pt-0">
                                 <h3 class="text-white font-semibold text-2xl">
                                     Follow:
                                 </h3>
                                 <div class="flex space-x-4">
                                     <a>
-                                        <svg class="w-8 h-8 fill-current text-white hover:text-black"
+                                        <svg class="w-8 h-8 fill-current text-white hover:text-gray-600"
                                             viewBox="0 0 496 484" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -159,10 +163,43 @@
 
             </div>
         </aside>
+        <section class="py-48">
+            <div class="relative z-0 max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
+                <div class="space-y-2">
+                    <div class="text-display font-semibold">
+                        Hey, I’m Klaven, and I
+                    </div>
+                    <div class="text-display font-semibold">
+                        love building things
+                    </div>
+                    <div class="text-display font-semibold">
+                        for the web.
+                    </div>
+                </div>
+                <div class="absolute bottom-0 right-0 mb-3  mr-6 md:mr-8 lg:mr-16">
+                    <svg class="h-10 md:h-12 lg:h-16" width="25px" height="92px" viewBox="0 0 25 92" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>Line</title>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Desktop" transform="translate(-1341.000000, -550.000000)" fill="#000000"
+                                fill-rule="nonzero">
+                                <path id="Line"
+                                    d="M1355.5,550.5 L1355.5,617.5 L1365.5,617.5 L1353.5,641.5 L1341.5,617.5 L1351.5,617.5 L1351.5,550.5 L1355.5,550.5 Z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </section>
 
 
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+            integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+            crossorigin="anonymous"></script>
 
+        <script src="./js/main.js"></script>
     </body>
 
 </html>
