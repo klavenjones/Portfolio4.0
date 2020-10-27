@@ -10553,6 +10553,14 @@ video {
   font-size: clamp(1.25rem, 5vw, 5rem);
 }
 
+.text-display-footer {
+  font-size: clamp(1rem, 5vw, 3.75rem);
+}
+
+.text-section-title {
+  font-size: clamp(10rem, 5vw, 15rem);
+}
+
 .leading-3 {
   line-height: .75rem;
 }
@@ -31610,6 +31618,14 @@ video {
     font-size: clamp(1.25rem, 5vw, 5rem);
   }
 
+  .sm\:text-display-footer {
+    font-size: clamp(1rem, 5vw, 3.75rem);
+  }
+
+  .sm\:text-section-title {
+    font-size: clamp(10rem, 5vw, 15rem);
+  }
+
   .sm\:leading-3 {
     line-height: .75rem;
   }
@@ -52600,6 +52616,14 @@ video {
 
   .md\:text-display {
     font-size: clamp(1.25rem, 5vw, 5rem);
+  }
+
+  .md\:text-display-footer {
+    font-size: clamp(1rem, 5vw, 3.75rem);
+  }
+
+  .md\:text-section-title {
+    font-size: clamp(10rem, 5vw, 15rem);
   }
 
   .md\:leading-3 {
@@ -73594,6 +73618,14 @@ video {
     font-size: clamp(1.25rem, 5vw, 5rem);
   }
 
+  .lg\:text-display-footer {
+    font-size: clamp(1rem, 5vw, 3.75rem);
+  }
+
+  .lg\:text-section-title {
+    font-size: clamp(10rem, 5vw, 15rem);
+  }
+
   .lg\:leading-3 {
     line-height: .75rem;
   }
@@ -94584,6 +94616,14 @@ video {
 
   .xl\:text-display {
     font-size: clamp(1.25rem, 5vw, 5rem);
+  }
+
+  .xl\:text-display-footer {
+    font-size: clamp(1rem, 5vw, 3.75rem);
+  }
+
+  .xl\:text-section-title {
+    font-size: clamp(10rem, 5vw, 15rem);
   }
 
   .xl\:leading-3 {
