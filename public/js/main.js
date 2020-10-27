@@ -9,7 +9,7 @@ const exit = document.querySelector("#exit")
 const tl = gsap.timeline({defaults: {duration: 1, ease: Back.easeOut.config(2)}})
 tl.paused(true)
 tl.to("#overlay", {clipPath: 'circle(100%)'})
-tl.to("#menu li", {opacity: 1, y: '-100px', stagger: 0.1}, "-=1")
+tl.to("#menu li", {opacity: 1, y: '-100px', stagger: 0.1}, "-=.6")
 
 
 menu.addEventListener('click', () => {
@@ -17,7 +17,7 @@ menu.addEventListener('click', () => {
 })
 
 exit.addEventListener('click', () => {
-   tl.reverse(.8)
+   tl.reverse(.9)
 })
 
 overlay.addEventListener('click', () => {
