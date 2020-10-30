@@ -10553,6 +10553,10 @@ video {
   font-size: clamp(1.25rem, 5vw, 5rem);
 }
 
+.text-display-description {
+  font-size: clamp(1.25rem, 5vw, 4rem);
+}
+
 .text-display-footer {
   font-size: clamp(1rem, 5vw, 3.75rem);
 }
@@ -31630,6 +31634,10 @@ video {
     font-size: clamp(1.25rem, 5vw, 5rem);
   }
 
+  .sm\:text-display-description {
+    font-size: clamp(1.25rem, 5vw, 4rem);
+  }
+
   .sm\:text-display-footer {
     font-size: clamp(1rem, 5vw, 3.75rem);
   }
@@ -52640,6 +52648,10 @@ video {
 
   .md\:text-display {
     font-size: clamp(1.25rem, 5vw, 5rem);
+  }
+
+  .md\:text-display-description {
+    font-size: clamp(1.25rem, 5vw, 4rem);
   }
 
   .md\:text-display-footer {
@@ -73654,6 +73666,10 @@ video {
     font-size: clamp(1.25rem, 5vw, 5rem);
   }
 
+  .lg\:text-display-description {
+    font-size: clamp(1.25rem, 5vw, 4rem);
+  }
+
   .lg\:text-display-footer {
     font-size: clamp(1rem, 5vw, 3.75rem);
   }
@@ -94664,6 +94680,10 @@ video {
 
   .xl\:text-display {
     font-size: clamp(1.25rem, 5vw, 5rem);
+  }
+
+  .xl\:text-display-description {
+    font-size: clamp(1.25rem, 5vw, 4rem);
   }
 
   .xl\:text-display-footer {
