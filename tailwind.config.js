@@ -14,7 +14,7 @@ module.exports = {
     extend: {
         fontSize: {
           'display': 'clamp(1.25rem, 5vw, 5rem)',
-          'display-description': 'clamp(1.25rem, 5vw, 4rem)',
+          'display-description': 'clamp(1.25rem, 5vw, 3rem)',
           'display-footer': 'clamp(1.25rem, 5vw, 3.25rem)',
           'section-title-xl': '10rem',
           'section-title-lg': '8rem',

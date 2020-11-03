@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/build/custom.css">
     </head>
 
-    <body class="h-screen">
+    <body data-barba="wrapper" class="h-screen">
         <nav>
             <div class="max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
                 <div class="flex justify-between h-24">
@@ -107,7 +107,7 @@
                                 <h3 class="text-white font-semibold text-2xl">
                                     Email:
                                 </h3>
-                                <a href="#"
+                                <a href="mailto:%68%65%79%40%6b&#108;&#97;%76%65%6e&#106;%6f%6e&#101;%73&#46;%63%6f%6d"
                                     class="text-white font-medium text-2xl transition-all duration-500 ease-in-out hover:text-gray-800 pt-1">
                                     hey@klavenjones.com
                                 </a>
@@ -117,7 +117,7 @@
                                     Follow:
                                 </h3>
                                 <div class="flex space-x-4">
-                                    <a>
+                                    <a target="_blank" href="https://github.com/klavenjones">
                                         <svg class="w-8 h-8 fill-current text-white transition-all duration-500 ease-in-out hover:text-gray-600"
                                             viewBox="0 0 496 484" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -128,7 +128,7 @@
 
                                         </svg>
                                     </a>
-                                    <a href="">
+                                    <a target="_blank" href="https://www.linkedin.com/in/klaven-jones/">
                                         <svg class="w-8 h-8 fill-current text-white transition-all duration-500 ease-in-out hover:text-blue-800"
                                             viewBox="0 0 448 448" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -143,7 +143,7 @@
 
                                         </svg>
                                     </a>
-                                    <a href="">
+                                    <a target="_blank" href="https://twitter.com/KlavenJ">
 
                                         <svg class="w-8 h-8 fill-current text-white transition-all duration-500 ease-in-out hover:text-blue-500"
                                             viewBox="0 0 512 416" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -167,75 +167,86 @@
 
             </div>
         </aside>
-        <section class="py-48">
-            <div class="relative z-0 max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
-                <div class="space-y-2">
-                    <div class="text-display font-semibold">
-                        Hey, I’m Klaven, and I
+        <main data-barba="container">
+            <section class="py-48">
+                <div class="relative z-0 max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
+                    <div class="space-y-2">
+                        <div class="text-display font-semibold">
+                            <span class="block">
+
+                                Hey, I’m Klaven, and I
+                            </span>
+                        </div>
+                        <div class="text-display font-semibold">
+                            <span class="block">
+
+                                love building things
+                            </span>
+                        </div>
+                        <div class="text-display font-semibold">
+                            <span class="block">
+
+                                for the web.
+                            </span>
+                        </div>
                     </div>
-                    <div class="text-display font-semibold">
-                        love building things
-                    </div>
-                    <div class="text-display font-semibold">
-                        for the web.
+                    <div class="absolute bottom-0 right-0 mb-3  mr-6 md:mr-8 lg:mr-16 z-10">
+                        <a href="#work">
+                            <svg class="h-10 md:h-12 lg:h-16 animate-bounce" width="25px" height="92px"
+                                viewBox="0 0 25 92" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="Desktop" transform="translate(-1341.000000, -550.000000)" fill="#000000"
+                                    fill-rule="nonzero">
+                                    <path id="Line"
+                                        d="M1355.5,550.5 L1355.5,617.5 L1365.5,617.5 L1353.5,641.5 L1341.5,617.5 L1351.5,617.5 L1351.5,550.5 L1355.5,550.5 Z">
+                                    </path>
+                                </g>
+
+                            </svg>
+                        </a>
                     </div>
                 </div>
-                <div class="absolute bottom-0 right-0 mb-3  mr-6 md:mr-8 lg:mr-16">
-                    <a href="#work">
-                        <svg class="h-10 md:h-12 lg:h-16 animate-bounce" width="25px" height="92px" viewBox="0 0 25 92"
-                            version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Desktop" transform="translate(-1341.000000, -550.000000)" fill="#000000"
-                                fill-rule="nonzero">
-                                <path id="Line"
-                                    d="M1355.5,550.5 L1355.5,617.5 L1365.5,617.5 L1353.5,641.5 L1341.5,617.5 L1351.5,617.5 L1351.5,550.5 L1355.5,550.5 Z">
-                                </path>
-                            </g>
+            </section>
 
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section id="work" class="py-16 max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
-            <!--
+            <section id="work" class="py-16 max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
+                <!--
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
-            <ul class="grid grid-cols-1 gap-6 lg:grid-cols-2">
-                <li class="col-span-1 bg-white rounded-lg">
-                    <div class="w-full h-500  lg:h-560 flex items-center justify-between space-x-6 bg-red-400">
-                        <img src="img/cirius-logo.png" alt="Cirus Engineering" class="object-cover w-full h-full">
-                    </div>
-                    <div class="border-t border-gray-200">
-                        <div class="-mt-px flex">
-                            <div class="w-0 flex-1 flex">
-                                <a href="work-cirius.html"
-                                    class="text-lg md:text-xl lg:text-2xl relative -mr-px w-0 flex-1 inline-flex items-left justify-left py-6  leading-relaxed text-gray-800 font-medium border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none   focus:z-10 transition ease-in-out duration-150">
+                <ul class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+                    <li class="col-span-1 bg-white rounded-lg">
+                        <div class="w-full h-500  lg:h-560 flex items-center justify-between space-x-6 bg-red-400">
+                            <img src="img/cirius-logo.png" alt="Cirus Engineering" class="object-cover w-full h-full">
+                        </div>
+                        <div class="border-t border-gray-200">
+                            <div class="-mt-px flex">
+                                <div class="w-0 flex-1 flex">
+                                    <a href="work-cirius.html"
+                                        class="text-lg md:text-xl lg:text-2xl relative -mr-px w-0 flex-1 inline-flex items-left justify-left py-6  leading-relaxed text-gray-800 font-medium border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none   focus:z-10 transition ease-in-out duration-150">
 
-                                    Website for Cirius Engineering
-                                </a>
+                                        Website for Cirius Engineering
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li class="col-span-1 bg-white rounded-lg">
-                    <div class="w-full h-500  lg:h-560 flex items-center justify-between space-x-6">
-                        <img src="img/clemo-logo.png" alt="Clemo Agency Logo" class="object-cover w-full h-full">
-                    </div>
-                    <div class="border-t border-gray-200">
-                        <div class="-mt-px flex">
-                            <div class="w-0 flex-1 flex">
-                                <a href="work-clemo.html"
-                                    class="text-lg md:text-xl lg:text-2xl relative -mr-px w-0 flex-1 inline-flex items-left justify-left py-6  leading-relaxed text-gray-800 font-medium border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none  focus:z-10 transition ease-in-out duration-150">
+                    </li>
+                    <li class="col-span-1 bg-white rounded-lg">
+                        <div class="w-full h-500  lg:h-560 flex items-center justify-between space-x-6">
+                            <img src="img/clemo-logo.png" alt="Clemo Agency Logo" class="object-cover w-full h-full">
+                        </div>
+                        <div class="border-t border-gray-200">
+                            <div class="-mt-px flex">
+                                <div class="w-0 flex-1 flex">
+                                    <a href="work-clemo.html"
+                                        class="text-lg md:text-xl lg:text-2xl relative -mr-px w-0 flex-1 inline-flex items-left justify-left py-6  leading-relaxed text-gray-800 font-medium border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none  focus:z-10 transition ease-in-out duration-150">
 
-                                    Website concept for a Creative Agency
-                                </a>
+                                        Website concept for a creative agency.
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <!-- <li class="col-span-1 bg-white rounded-lg">
+                    </li>
+                    <!-- <li class="col-span-1 bg-white rounded-lg">
                     <div class="w-full h-500 lg:h-560 flex items-center justify-between p-6 space-x-6 bg-blue-400">
 
                     </div>
@@ -270,9 +281,10 @@
                 </li>
 
                  -->
-            </ul>
+                </ul>
 
-        </section>
+            </section>
+        </main>
         <footer id="contact" class="py-16 max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
             <h2 class="text-4xl font-bold text-black mb-10">
                 Lets Connect:
@@ -283,7 +295,7 @@
                     <h3 class="text-black font-semibold text-2xl">
                         Email:
                     </h3>
-                    <a href="#"
+                    <a href="mailto:%68%65%79%40%6b&#108;&#97;%76%65%6e&#106;%6f%6e&#101;%73&#46;%63%6f%6d"
                         class="text-black font-medium text-2xl transition-all duration-500 ease-in-out hover:text-gray-500 pt-1">
                         hey@klavenjones.com
                     </a>
@@ -293,7 +305,7 @@
                         Follow:
                     </h3>
                     <div class="flex space-x-4">
-                        <a href="">
+                        <a target="_blank" href="https://github.com/klavenjones">
                             <svg class="w-8 h-8 fill-current text-black transition-all duration-500 ease-in-out hover:text-gray-600"
                                 viewBox="0 0 496 484" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -304,7 +316,7 @@
 
                             </svg>
                         </a>
-                        <a href="">
+                        <a target="_blank" href="https://linkedin.com/in/klaven-jones">
                             <svg class="w-8 h-8 fill-current text-black transition-all duration-500 ease-in-out hover:text-blue-800"
                                 viewBox="0 0 448 448" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -318,7 +330,7 @@
 
                             </svg>
                         </a>
-                        <a href="">
+                        <a target="_blank" href="https://twitter.com/KlavenJ">
 
                             <svg class="w-8 h-8 fill-current text-black transition-all duration-500 ease-in-out hover:text-blue-500"
                                 viewBox="0 0 512 416" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -335,12 +347,14 @@
                 </div>
             </div>
         </footer>
-
+        <!-- unpkg -->
+        <script src="https://unpkg.com/@barba/core"></script>
         <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
             integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
             crossorigin="anonymous">
             </script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
         <script src="./js/main.js"></script>
     </body>
 

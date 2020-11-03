@@ -1,8 +1,10 @@
-
-
 /* 
-    Animation CSS
+    Custom CSS
 */
+
+html {
+  scroll-behavior: smooth;
+}
 
 #overlay {
   clip-path: circle(0);
@@ -10,4 +12,15 @@
 
 #menu li {
   opacity: 0;
+}
+
+.text-display span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  z-index: 2;
+  transform-origin: 0 100%;
 }
