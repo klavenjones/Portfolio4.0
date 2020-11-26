@@ -26,7 +26,8 @@ export default function Layout({ children, home }) {
 
         <meta name='og:title' content={siteTitle} />
         <meta name='twitter:card' content='summary_large_image' />
-
+        <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
+        <link rel='icon' href='/favicon.ico' type='image/x-icon'></link>
         <script src='https://unpkg.com/ionicons@5.2.3/dist/ionicons.js'></script>
       </Head>
 
