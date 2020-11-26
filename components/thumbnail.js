@@ -1,7 +1,4 @@
 import { useState } from 'react'
-
-import Head from 'next/head'
-// import { Popup } from 'react-magnific-popup'
 import Reveal from 'react-reveal/Reveal'
 import classnames from 'classnames'
 

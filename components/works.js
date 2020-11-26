@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import ProjectModal from './project-modal'
 import Reveal from 'react-reveal/Reveal'
-import Filter from './filter'
 import Thumbnail from './thumbnail'
 import useSWR from 'swr'
 
