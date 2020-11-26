@@ -622,7 +622,7 @@
 }
 
 @media (max-width: 1079px) {
-  .contacts h1 {
+  .contact-title {
     font-size: 25px;
   }
 }

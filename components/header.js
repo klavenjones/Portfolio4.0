@@ -13,8 +13,10 @@ export default function Header() {
                 <p>I build things for the web.</p> */}
                 <Typed
                   strings={["Hey, I'm Klaven.", 'I build things for the web.']}
-                  typeSpeed={30}
-                  backSpeed={30}
+                  startDelay={400}
+                  backDelay={2000}
+                  typeSpeed={60}
+                  backSpeed={60}
                   loop
                 />
               </div>

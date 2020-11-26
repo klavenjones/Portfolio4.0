@@ -24,7 +24,7 @@ export default function About() {
         </div>
         <div className='bts'>
           <Reveal effect='fadeInUpSmall'>
-            <Link href='#'>
+            <Link href='/images/resume2020.pdf'>
               <a className='btn extra'>Download Resume</a>
             </Link>
           </Reveal>

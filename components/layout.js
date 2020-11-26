@@ -26,16 +26,7 @@ export default function Layout({ children, home }) {
 
         <meta name='og:title' content={siteTitle} />
         <meta name='twitter:card' content='summary_large_image' />
-        {/* <script src='/js/jquery.min.js'></script> */}
-        {/*  <script src='/js/jquery.validate.js'></script>
-        <script src='/js/masonry.pkgd.js'></script>
-        <script src='/js/imagesloaded.pkgd.js'></script>
-        <script src='/js/masonry-filter.js'></script>
-        <script src='/js/magnific-popup.js'></script>
-        <script src='/js/scrollreveal.js'></script>
-        <script src='/js/typed.js'></script> 
-      */}
-        {/* <script src='/js/main.js'></script> */}
+
         <script src='https://unpkg.com/ionicons@5.2.3/dist/ionicons.js'></script>
       </Head>
 

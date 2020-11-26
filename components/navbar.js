@@ -62,9 +62,12 @@ export default function Navbar({ home }) {
       <header className={classnames('header', { filled: scrolling })}>
         <div className='fw'>
           <div className='logo'>
-            <a href='#'>KJ.</a>
+            <a href='/'>KJ.</a>
           </div>
-          <a href='#' onClick={() => setActive(!isActive)} className={classnames('menu-btn', { active: isActive })}>
+          <a
+            onClick={() => setActive(!isActive)}
+            className={classnames('menu-btn', { active: isActive })}
+          >
             <span></span>
           </a>
           <div className={classnames('top-menu', { active: isActive })}>

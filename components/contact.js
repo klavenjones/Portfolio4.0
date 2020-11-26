@@ -12,7 +12,7 @@ export default function Contact() {
               </div>
             </Reveal>
             <Reveal effect='fadeIn' cascade>
-              <h1 className='animated'>
+              <h1 className='contact-title'>
                 I'm currently accepting freelance <br /> and full-time
                 opportunities.
               </h1>
@@ -24,7 +24,7 @@ export default function Contact() {
           </div>
           <div className='bts'>
             <Reveal effect='fadeInUp' cascade>
-              <a href='#' className='btn extra '>
+              <a href='mailto:hey@klavenjones.com' className='btn extra '>
                 Email
               </a>
               <a href='https://twitter.com/KlavenJ' className='btn extra '>

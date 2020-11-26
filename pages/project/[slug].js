@@ -66,17 +66,14 @@ export default function Project() {
                       </div>
                       <div>
                         <h3>WWW</h3>
-                        <a
-                          href={`${data.url}`}
-                          className='btn extra animated'
-                        >
+                        <a href={`${data.url}`} className='btn extra animated'>
                           {data.www}
                         </a>
                       </div>
                     </div>
                   </div>
 
-                  <div className='post-lightbox row'>
+                  {/* <div className='post-lightbox row'>
                     <a
                       href='images/works/work1.jpg'
                       className='col col-m-12 col-t-4 col-d-4 lightbox-image'
@@ -95,14 +92,14 @@ export default function Project() {
                     >
                       <img src='images/works/work3.jpg' alt='' />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className='row'>
                   <div className='col col-m-12 col-t-12 col-d-12'>
                     <h3 className='sub-title'>Get in Touch</h3>
 
-                    <h2>
+                    <h2 className='contact-title'>
                       I'm currently accepting freelance <br />
                       and full-time opportunities.
                     </h2>
@@ -111,7 +108,10 @@ export default function Project() {
                       employer looking to hire. Feel free to connect with me.
                     </p>
                     <div className='bts'>
-                      <a href='#' className='btn extra animated'>
+                      <a
+                        href='mailto:hey@klavenjones.com'
+                        className='btn extra '
+                      >
                         Email
                       </a>
                       <a

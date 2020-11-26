@@ -1,5 +1,6 @@
 import { Reveal } from 'react-reveal'
 
+
 export default function footer() {
   return (
     <>
