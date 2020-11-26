@@ -15,12 +15,10 @@ export default function Thumbnail({ project }) {
 
   const openModal = () => {
     setshow(true)
-    console.log(show)
   }
 
   const closeModal = () => {
     setshow(false)
-    console.log(show)
   }
 
   return (

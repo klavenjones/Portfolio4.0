@@ -1,8 +1,6 @@
 import { projects } from '../../../projects'
 
 export default function getProject({ query: { slug } }, res) {
-
-   console.log(slug)   
   const filtered = projects.filter((p) => p.slug === slug)
 
   //IF Project exists
