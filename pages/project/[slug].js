@@ -95,8 +95,8 @@ export default function Project() {
                   </div> */}
                 </div>
 
-                <div className='row'>
-                  <div className='col col-m-12 col-t-12 col-d-12'>
+                <div className='row '>
+                  <div className='col col-m-12 col-t-12 col-d-12 detail-contact'>
                     <h3 className='sub-title'>Get in Touch</h3>
 
                     <h2 className='contact-title'>

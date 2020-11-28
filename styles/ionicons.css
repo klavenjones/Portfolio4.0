@@ -761,7 +761,6 @@ ion-icon,
 .ion-xbox:before {
   display: inline-block;
   font-family: 'Ionicons';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3703,9 +3702,10 @@ ion-icon,
   content: '\f30c';
 }
 
-
-ion-icon {
- 
+.custom-icon {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 20px;
   color: #292929;
   --ionicon-stroke-width: 18px;
 }

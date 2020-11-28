@@ -218,7 +218,6 @@
 }
 
 .work-details {
-  display: flex;
   margin-bottom: 50px;
   padding: 0;
 }
@@ -240,6 +239,11 @@
 .post-box .contact-title {
   font-size: clamp(1.3rem, 3vw, 52px);
   line-height: clamp(30px, 4vw, 80px);
+}
+
+.detail-contact {
+  margin-top: 50px;
+  position: relative;
 }
 
 /* @media (max-width: 1079px) {

@@ -1,4 +1,8 @@
 import Reveal from 'react-reveal'
+import IosLaptop from 'react-ionicons/lib/IosLaptop'
+import IosBrowsersOutline from 'react-ionicons/lib/IosBrowsersOutline'
+import IosCode from 'react-ionicons/lib/IosCode'
+import IosBrushOutline from 'react-ionicons/lib/IosBrushOutline'
 
 export default function Skills() {
   return (
@@ -14,7 +18,11 @@ export default function Skills() {
             <Reveal effect='fadeInUpSmall'>
               <div className='service-item animated'>
                 <div className='circle'>
-                  <ion-icon size='large' className='icon' name='code-outline'></ion-icon>
+                  <IosCode
+                    size='large'
+                    fontSize='45px'
+                    className='icon custom-icon'
+                  />
                 </div>
                 <div className='name'>Languages</div>
                 <ul className='service-list'>
@@ -32,7 +40,11 @@ export default function Skills() {
             <Reveal effect='fadeInUpSmall'>
               <div className='service-item '>
                 <div className='circle'>
-                  <ion-icon size='large' className='icon-custom' name='logo-react'></ion-icon>
+                  <IosBrowsersOutline
+                    size='large'
+                    fontSize='45px'
+                    className='icon custom-icon'
+                  />
                 </div>
                 <div className='name'>Frameworks & Libs</div>
                 <ul className='service-list'>
@@ -50,7 +62,12 @@ export default function Skills() {
             <Reveal effect='fadeInUpSmall'>
               <div className='service-item '>
                 <div className='circle'>
-                  <ion-icon size='large' className='icon' name='laptop-outline'></ion-icon>
+                  <IosLaptop
+                    size='large'
+                    fontSize='45px'
+                    className='icon custom-icon'
+                  />
+                  {/* <ion-icon size='large' className='icon' name='laptop-outline'></ion-icon> */}
                 </div>
                 <div className='name'>Dev Tools</div>
                 <ul className='service-list'>
@@ -66,7 +83,11 @@ export default function Skills() {
             <Reveal effect='fadeInUpSmall'>
               <div className='service-item animated'>
                 <div className='circle'>
-                  <ion-icon size='large' className='icon' name='brush-outline'></ion-icon>
+                  <IosBrushOutline
+                    size='large'
+                    fontSize='45px'
+                    className='icon custom-icon'
+                  />
                 </div>
                 <div className='name'>Design Tools</div>
                 <ul className='service-list'>
