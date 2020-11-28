@@ -8,7 +8,11 @@ export default function Contact() {
           <div className='text-box'>
             <Reveal effect='fadeInLeftSmall'>
               <div className='titles animated'>
-                <div className='title'>Get In Touch</div>
+                <div className='title'>
+                  <h3 className="sub-title">
+                  Get In Touch
+                  </h3>
+                </div>
               </div>
             </Reveal>
             <Reveal effect='fadeIn' cascade>

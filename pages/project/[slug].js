@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 import useSWR from 'swr'
 
 import Layout from '../../components/layout'
@@ -66,9 +67,11 @@ export default function Project() {
                       </div>
                       <div>
                         <h3>WWW</h3>
-                        <a href={`${data.url}`} className='btn extra animated'>
-                          {data.www}
-                        </a>
+                        <Link href={`${data.url}`}>
+                          <a href={`${data.url}`} className='btn'>
+                            {data.www}
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -94,47 +97,43 @@ export default function Project() {
                     </a>
                   </div> */}
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col col-m-12 col-t-12 col-d-12'>
+              <h3 className='sub-title'>Get in Touch</h3>
 
-                <div className='row '>
-                  <div className='col col-m-12 col-t-12 col-d-12 detail-contact'>
-                    <h3 className='sub-title'>Get in Touch</h3>
-
-                    <h2 className='contact-title'>
-                      I'm currently accepting freelance <br />
-                      and full-time opportunities.
-                    </h2>
-                    <p>
-                      If you are a business seeking an app and/or website, or an
-                      employer looking to hire. Feel free to connect with me.
-                    </p>
-                    <div className='bts'>
-                      <a
-                        href='mailto:hey@klavenjones.com'
-                        className='btn extra '
-                      >
-                        Email
-                      </a>
-                      <a
-                        href='https://twitter.com/KlavenJ'
-                        className='btn extra animated'
-                      >
-                        Twitter
-                      </a>
-                      <a
-                        href='https://www.linkedin.com/in/klaven-jones'
-                        className='btn extra animated'
-                      >
-                        Linkedin
-                      </a>
-                      <a
-                        href='https://github.com/klavenjones'
-                        className='btn extra animated'
-                      >
-                        Github
-                      </a>
-                    </div>
-                  </div>
-                </div>
+              <h2 className='contact-title'>
+                I'm currently accepting freelance <br />
+                and full-time opportunities.
+              </h2>
+              <p>
+                If you are a business seeking an app and/or website, or an
+                employer looking to hire. Feel free to connect with me.
+              </p>
+              <div className='bts'>
+                <a href='mailto:hey@klavenjones.com' className='btn extra '>
+                  Email
+                </a>
+                <a
+                  href='https://twitter.com/KlavenJ'
+                  className='btn extra animated'
+                >
+                  Twitter
+                </a>
+                <a
+                  href='https://www.linkedin.com/in/klaven-jones'
+                  className='btn extra animated'
+                >
+                  Linkedin
+                </a>
+                <a
+                  href='https://github.com/klavenjones'
+                  className='btn extra animated'
+                >
+                  Github
+                </a>
               </div>
             </div>
           </div>
