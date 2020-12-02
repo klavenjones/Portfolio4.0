@@ -11,7 +11,7 @@ export default function About() {
         <div className='text-box'>
           <Reveal effect='fadeInUpSmall' cascade>
             <h1>
-              I'm Klaven Jones, <br /> a full-stack software engineer
+              I'm Klaven Jones, <br /> a full-stack web developer
               <br /> based in Brooklyn, NY.
             </h1>
             <p>
