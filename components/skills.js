@@ -103,9 +103,9 @@ export default function Skills() {
             <Reveal effect='fadeInRightSmall'>
               <div className='service-item animated'>
                 <p className='disclaimer'>
-                  * I only worked with these technologies a few times, I am
-                  familiar with it, but I am still learning them and may need to
-                  brush up.
+                  * I only worked with this technology a few times, I am
+                  familiar with it, but I am still learning it or I may need to
+                  brush up on it.
                 </p>
               </div>
             </Reveal>
