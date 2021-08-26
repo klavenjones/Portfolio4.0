@@ -25,12 +25,12 @@ export const projects = [
     slug: 'codr',
     category: 'Website',
     title: 'CODR Blog',
-    headline: 'Web Application',
+    headline: 'A Web application that allows users to post their thoughts',
     completion: 'Completed 2021',
     shortDescription:
       'A web application that allows users to post their thoughts online.',
     fullDescription:
-      "Inspired by the Dev.to blogging platform, I wanted to create a web application, using the amazing Firebase service. So I wanted to create my own little version of the blogging platform called CODR. This is where coders, like myself can share their thoughts with everyone. Technologies I've used to build this app was React.js, Firebase, and Next.js ",
+      "Inspired by the Dev.to blogging platform, I wanted to create a web application, using the amazing Firebase service. So I wanted to create my own little version of the blogging platform called CODR. This is where coders, like myself can share their thoughts with everyone. Technologies I've used to build this app was React.js, Firebase, and Next.js.",
     position: 'Developer & Designer',
     company: 'Personal',
     work: 'Web Design & Development',
@@ -47,11 +47,11 @@ export const projects = [
     slug: 'mjgraphics',
     category: 'Website',
     title: 'MJ Graphics Design Portfolio',
-    headline: 'Web Application',
+    headline: 'A portfolio web application for a talented artist.',
     completion: 'Completed 2021',
     shortDescription: 'A Web Portfolio for an up and coming digital artist.',
     fullDescription:
-      'A talented digital artist and graphic designer who was in need of a portfolio to showcase their work.',
+      'A talented digital artist and graphic designer who was in need of a portfolio to showcase their work. This application was built with the JAMstack, using Nextjs, and Sanity.io Headless CMS',
     position: 'Developer & Designer',
     company: 'MJ Graphics Design',
     work: 'Web Design & Development',
