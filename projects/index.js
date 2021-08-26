@@ -7,8 +7,7 @@ export const projects = [
     completion: 'Completed 2020',
     shortDescription:
       'A company website for Cirius Engineering, L.L.C to showcase the work and services they have to offer.',
-    fullDescription:
-      'Cirius Engineering, L.L.C. is an up and coming electrical design consultancy agency. The company needed a way to promote their work and services they offer. The solution was to create a simple portfolio website, with standard front-end technologies, such as HTML, CSS, and Javascript.',
+    fullDescription: 'Cirius Engineering, L.L.C. is an up-and-coming electrical design consultancy agency. The company needed a way to promote the work and services they offer. The solution was to create a simple portfolio website, with standard front-end technologies, such as HTML, CSS, and Javascript.',
     position: 'Developer & Designer',
     company: 'Cirius Engineering, L.L.C.',
     work: 'Web Design & Development',
