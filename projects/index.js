@@ -18,31 +18,74 @@ export const projects = [
     preview: {
       one: '',
       two: '',
-      three: '',
-    },
+      three: ''
+    }
   },
   {
-    slug: 'clemo',
+    slug: 'codr',
     category: 'Website',
-    title: 'Clemo Agency Concept Website',
-    headline: 'Concept Design for a Web Agency',
-    completion: 'Completed 2020',
+    title: 'CODR Blog',
+    headline: 'Web Application',
+    completion: 'Completed 2021',
     shortDescription:
-      'A concept website for a web agency. I created this website from a design I found on Dribbble, from a fantastic designer named Illia Nesterov.',
+      'A web application that allows users to post their thoughts online.',
     fullDescription:
-      'As a developer, I like to stay sharp. Every now and then, I would do quick fun little projects to test skills. With this project, I decided to look for a design from Dribbble, and I found a fantastic design by a designer named Illia Nesterov. I converted the design from a PSD file to a fully functioning website using HTML, CSS, and JavaScript.',
+      "Inspired by the Dev.to blogging platform, I wanted to create a web application, using the amazing Firebase service. So I wanted to create my own little version of the blogging platform called CODR. This is where coders, like myself can share their thoughts with everyone. Technologies I've used to build this app was React.js, Firebase, and Next.js ",
     position: 'Developer & Designer',
     company: 'Personal',
-    work: 'Development',
-    www: 'clemoagency.com',
-    url: 'https://www.clemoagency.com',
-    photo: 'Clemo.jpg',
+    work: 'Web Design & Development',
+    www: 'codr-blog.vercel.app',
+    url: 'https://codr-blog.vercel.app/',
+    photo: 'codr.jpg',
     preview: {
       one: '',
       two: '',
-      three: '',
-    },
+      three: ''
+    }
   },
+  {
+    slug: 'mjgraphics',
+    category: 'Website',
+    title: 'MJ Graphics Design Portfolio',
+    headline: 'Web Application',
+    completion: 'Completed 2021',
+    shortDescription: 'A Web Portfolio for an up and coming digital artist.',
+    fullDescription:
+      'A talented digital artist and graphic designer who was in need of a portfolio to showcase their work.',
+    position: 'Developer & Designer',
+    company: 'MJ Graphics Design',
+    work: 'Web Design & Development',
+    www: 'mjgraphics.design',
+    url: 'https://www.mjgraphics.design/',
+    photo: 'MJGraphics.jpg',
+    preview: {
+      one: '',
+      two: '',
+      three: ''
+    }
+  },
+  // {
+  //   slug: 'clemo',
+  //   category: 'Website',
+  //   title: 'Clemo Agency Concept Website',
+  //   headline: 'Concept Design for a Web Agency',
+  //   completion: 'Completed 2020',
+  //   shortDescription:
+  //     'A concept website for a web agency. I created this website from a design I found on Dribbble, from a fantastic designer named Illia Nesterov.',
+  //   fullDescription:
+  //     'As a developer, I like to stay sharp. Every now and then, I would do quick fun little projects to test skills. With this project, I decided to look for a design from Dribbble, and I found a fantastic design by a designer named Illia Nesterov. I converted the design from a PSD file to a fully functioning website using HTML, CSS, and JavaScript.',
+  //   position: 'Developer & Designer',
+  //   company: 'Personal',
+  //   work: 'Development',
+  //   www: 'clemoagency.com',
+  //   url: 'https://www.clemoagency.com',
+  //   photo: 'Clemo.jpg',
+  //   preview: {
+  //     one: '',
+  //     two: '',
+  //     three: ''
+  //   }
+  // },
   // {
   //   slug: 'cems',
   //   category: 'Mobile Application',
@@ -65,26 +108,26 @@ export const projects = [
   //     three: '',
   //   },
   // },
-  // {
-  //   slug: 'seekr',
-  //   category: 'Web Application',
-  //   title: 'Seekr: A Job Application Manager',
-  //   headline: 'An Application to manage my Applications.',
-  //   completion: 'In Development',
-  //   shortDescription:
-  //     'A web application that helps job seekers stay organized in their job search.',
-  //   fullDescription:
-  //     "Looking for work can be difficult. It can be easy to lose track of all your applications, especially when you apply to more than a handful of jobs per day. My solution used to be to keep my job search organized on an excel sheet. But that became tedious. So I decided to create an app that allows me to keep track of the job applications I've submitted. Technologies I've used to build this app was React.js, Firebase, and Next.js.",
-  //   position: 'Developer & Designer',
-  //   company: 'Personal',
-  //   work: 'Full-stack Development',
-  //   www: '',
-  //   url: '',
-  //   photo: 'Seekr.jpg',
-  //   preview: {
-  //     one: '',
-  //     two: '',
-  //     three: '',
-  //   },
-  // },
+  {
+    slug: 'seekr',
+    category: 'Web Application',
+    title: 'Seekr: A Job Application Manager',
+    headline: 'An Application to manage my Applications.',
+    completion: 'In Development',
+    shortDescription:
+      'A web application that helps job seekers stay organized in their job search.',
+    fullDescription:
+      "Looking for work can be difficult. It can be easy to lose track of all your applications, especially when you apply to more than a handful of jobs per day. My solution used to be to keep my job search organized on an excel sheet. But that became tedious. So I decided to create an app that allows me to keep track of the job applications I've submitted. Technologies I've used to build this app was React.js, Firebase, and Next.js.",
+    position: 'Developer & Designer',
+    company: 'Personal',
+    work: 'Full-stack Development',
+    www: 'seekr-iota.vercel.app/',
+    url: 'https://seekr-iota.vercel.app/',
+    photo: 'Seekr.jpg',
+    preview: {
+      one: '',
+      two: '',
+      three: ''
+    }
+  }
 ]
