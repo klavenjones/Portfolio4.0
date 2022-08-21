@@ -42,27 +42,27 @@ export const projects = [
       three: ''
     }
   },
-  {
-    slug: 'mjgraphics',
-    category: 'Website',
-    title: 'MJ Graphics Design Portfolio',
-    headline: 'A portfolio web application for a talented artist.',
-    completion: 'Completed 2021',
-    shortDescription: 'A Web Portfolio for an up and coming digital artist.',
-    fullDescription:
-      'A talented digital artist and graphic designer who was in need of a portfolio to showcase their work. This application was built with the JAMstack, using Nextjs, and Sanity.io Headless CMS',
-    position: 'Developer & Designer',
-    company: 'MJ Graphics Design',
-    work: 'Web Design & Development',
-    www: 'mjgraphics.design',
-    url: 'https://www.mjgraphics.design/',
-    photo: 'MJGraphics.jpg',
-    preview: {
-      one: '',
-      two: '',
-      three: ''
-    }
-  },
+//   {
+//     slug: 'mjgraphics',
+//     category: 'Website',
+//     title: 'MJ Graphics Design Portfolio',
+//     headline: 'A portfolio web application for a talented artist.',
+//     completion: 'Completed 2021',
+//     shortDescription: 'A Web Portfolio for an up and coming digital artist.',
+//     fullDescription:
+//       'A talented digital artist and graphic designer who was in need of a portfolio to showcase their work. This application was built with the JAMstack, using Nextjs, and Sanity.io Headless CMS',
+//     position: 'Developer & Designer',
+//     company: 'MJ Graphics Design',
+//     work: 'Web Design & Development',
+//     www: 'mjgraphics.design',
+//     url: 'https://www.mjgraphics.design/',
+//     photo: 'MJGraphics.jpg',
+//     preview: {
+//       one: '',
+//       two: '',
+//       three: ''
+//     }
+//   },
   // {
   //   slug: 'clemo',
   //   category: 'Website',
